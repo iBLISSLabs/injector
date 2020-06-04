@@ -154,7 +154,7 @@ read_file () {
 update() {
 
         if [ $TCONT != "0" ]; then
-                echo "$BOLD You have $TCONT instances running now... Please wait that attacks finish or stop the instances!"
+                echo "$BOLD You have $TCONT instances running now... Please wait for the attacks to finish or stop the instances!"
                 exit 0
          else
                 read -p "$BOLD Can update the injector now?[y/n]" input
